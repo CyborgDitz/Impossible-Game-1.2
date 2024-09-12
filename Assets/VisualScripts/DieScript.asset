@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: DieScript
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Death
+      Spike","summary":"Kills player in log","pan":{"x":104.3431,"y":-18.30062},"zoom":1.0,"elements":[{"chainable":false,"parameterNames":["message"],"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":279.0,"y":-75.0},"guid":"f2f89192-6e2f-4a16-84d4-1b48be36de92","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"9"},{"type":"System.String","value":{"$content":"You
+      died!","$type":"System.String"},"defaultValues":{},"position":{"x":-108.0,"y":128.0},"guid":"bcfbf132-400e-40cd-a072-43ed6b73fc9a","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-305.0,"y":-217.0},"guid":"ec57fae1-9054-40fc-bba2-5399da4f8264","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter2D","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"d864f8ac-7fce-46d0-8103-52d564e9b9d0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"%message","guid":"4a571c90-ffde-41fb-89bb-6c8538fd5b20","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
